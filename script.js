@@ -10,4 +10,9 @@ document.addEventListener("DOMContentLoaded", function() {
             element.classList.add("animate");
         });
     });
+
+    document.querySelector(".music-button").addEventListener("click", function() {
+        document.querySelector(".main").classList.add("hidden");
+        document.querySelector(".music").classList.remove("hidden");
+    });
 });
